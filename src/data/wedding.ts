@@ -6,7 +6,7 @@ export const WEDDING = {
   guest: 'ភ្ញៀវកិត្តិយស',
   parents: {
     groom: ['លោកស្រី ហេង រីណា'],
-    bride: ['ឯកឧត្តម ញឹក សាគុណា', 'លោកជំទាវ ព្រាន វ៉ាញ'],
+    bride: ['ឯកឧត្តម ញឹក សាគុណា', 'លោកជំទាវ ព្រាង វ៉ាញ'],
   },
   // Put photo files in public/photos and use paths like '/photos/groom.jpg'.
   // A null shows a Khmer ornament in the frame instead.
@@ -42,8 +42,8 @@ export const WEDDING = {
   dressCode: {
     label: 'សម្លៀកបំពាក់ប្រពៃណីខ្មែរ ឬសម្លៀកបំពាក់ពិធីការ',
     colors: [
-      { name: 'បៃតងអូលីវ', value: '#5b6136' },
-      { name: 'ស', value: '#f7f4e4' },
+      { name: 'ក្រហមចាស់', value: '#7a1a22' },
+      { name: 'ក្រហម', value: '#c8202c' },
       { name: 'មាស', value: '#c9a24d' },
     ],
   },
@@ -52,6 +52,8 @@ export const WEDDING = {
     { name: 'ចន្ទ្រា', message: 'សូមអបអរសាទរ! សូមឱ្យក្តីស្រឡាញ់របស់អ្នកទាំងពីរកាន់តែរីកចម្រើនជារៀងរាល់ថ្ងៃ។' },
     { name: 'វិសាល', message: 'សូមជូនពរឱ្យមានសុខភាពល្អ និងជោគជ័យក្នុងជីវិតអាពាហ៍ពិពាហ៍។' },
   ],
+  // Bank KHQR shown in the gift section (file in public/)
+  giftQr: { src: '/qr.webp', name: 'NHEK SOKUNVEARY', bank: 'ACLEDA' },
   giftMessage: 'វត្តមានរបស់លោកអ្នក គឺជាអំណោយដ៏ធំបំផុតសម្រាប់យើងខ្ញុំ',
   programme: [
     {

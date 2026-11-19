@@ -5,6 +5,7 @@ import { ScrollReveal } from './invitation/scroll-reveal';
 import { Ceremony } from './invitation/sections/ceremony';
 import { Cover } from './invitation/sections/cover';
 import { CountdownCalendar } from './invitation/sections/countdown-calendar';
+import { GiftQr } from './invitation/sections/gift-qr';
 import { Gallery } from './invitation/sections/gallery';
 import { LoveStory } from './invitation/sections/love-story';
 import { Schedule } from './invitation/sections/schedule';
@@ -46,6 +47,7 @@ export function InvitationPage() {
             <DressCode />
             <Schedule />
           </div>
+          <GiftQr />
           <Closing />
         </div>
       </main>
